@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_project_technologies",
+    "info": {
+        "displayName": "technology"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "config": {}
+}
