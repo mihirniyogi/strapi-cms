@@ -1,0 +1,48 @@
+{
+    "kind": "collectionType",
+    "collectionName": "experiences",
+    "info": {
+        "singularName": "experience",
+        "pluralName": "experiences",
+        "displayName": "Experience"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "type": {
+            "type": "enumeration",
+            "required": true,
+            "default": "work",
+            "enum": [
+                "work",
+                "education",
+                "volunteering"
+            ]
+        },
+        "start": {
+            "type": "date",
+            "required": true
+        },
+        "end": {
+            "type": "date"
+        },
+        "role": {
+            "type": "string",
+            "required": true
+        },
+        "organisation": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "visible": {
+            "type": "boolean",
+            "required": true,
+            "default": true
+        }
+    }
+}
